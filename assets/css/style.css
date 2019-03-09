@@ -1,15 +1,57 @@
-.me {
-    height: 100%;
-    width: 110%;
-    margin-right: 30px;
+
+#topname {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    /* margin-left: 227px; */
 }
 
-.col-lg-6 {
-    display: left;
+.navbar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    /* width: 70%; */
+    padding-top: -60px;
+    padding-bottom: -20px;
+    margin-left: 15%;
+}
+
+.me {
+    max-width:60%;
+    max-height:60%; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#headers {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#damn-line {
+    border-width: medium;
+}
+
+.buttons { 
+    width: 75px; 
+    height: 40px; 
+    font-size: 15px; 
+    border-radius: 3px;
+}
+
+.mainRow {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 70%;
+    /* height: 450px; */
+    align-self: center;
+    margin-left: 15%;
+    margin-bottom: 55px;
 }
 
 .portfoliobox {
-    background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: medium;
     letter-spacing: 1px;
@@ -22,3 +64,65 @@
     display: left;
     flex-direction: column;
 }
+
+.portfolio-images{    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width:30%;
+    height:30%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.text-images {
+    height: 30%;
+    width:30%;
+    margin: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+
+ }
+
+
+footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 50px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.imageboxes {
+    width: 20%;
+    margin: 10px;
+    float: left;
+}
+
+.message {
+    width: 50%;
+    height: 50px;
+}
+
+/* On screens that are 992px wide or less, the background color is blue
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  /* @media screen and (max-width: 640px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+
+    #nav-items2 {
+    display: none;
+
+    }
+  } *
